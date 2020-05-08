@@ -185,11 +185,11 @@ def main():
     else:
       turn = 1 - turn
       if total_filled == 9:
-        print("Game tied")
+        print("Game tied. Thank You")
         break
       continue
     if winner != None:
-      print("Player {} is winner...".format(winner_name))
+      print("Player {} is winner.Thank You".format(winner_name))
       break
 
 
